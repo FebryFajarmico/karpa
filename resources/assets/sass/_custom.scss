@@ -1,0 +1,155 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.section-heading{
+  margin-top: 120px;
+  margin-bottom: 40px;
+
+  h1{
+    color: #3a3a3a;
+  	font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+
+  p{
+    text-align: center;
+  }
+}
+
+.section-heading .heading-border {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.fixed-top{
+  background-color: rgba(255,255,255,.4);
+  padding: 15px 10px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.fixed-top.top-nav-collapse{
+  background-color: #bf8f00;
+  padding: 0px;
+}
+
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  width: 100%;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+  .navbar-nav.ml-auto{
+    background-color: rgba(255,255,255,.4);
+
+    .nav-item .nav-link{
+        font-size: 12px;
+      	letter-spacing: 1px;
+        color: #444;
+      	text-transform: uppercase;
+      	font-weight: 700;
+        padding: 16px 15px;
+
+        &:hover{
+          background: #fefefe;
+        }
+
+        &.active{
+          background-color: rgba(255,255,255,.4);
+        }
+    }
+  }
+
+  .navbar-brand {
+    padding: 5px 15px;
+
+    h1{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1em;
+    }
+
+    img{
+      width: auto;
+      height: 120px
+    }
+  }
+}
+
+#welcome{
+  font-size: 1.2em;
+  background: url("/image/rinjani-background.jpg") no-repeat center center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#aboutus{
+  font-size: 1.2em;
+  min-height: 100%;
+  width: 100%;
+  background-color: #bf8f00;
+  padding-bottom: 40px;
+
+  p{
+    color: #fff;
+  }
+}
+
+#ourpackage{
+  min-height: 100%;
+  min-width: 100%;
+  // background-color: #4256f4;
+  background-color: #5285dd;
+  padding-bottom: 40px;
+}
+
+#parallax1{
+  background: url("/image/parallax1.jpg") no-repeat fixed center center;
+
+  .parallax-text{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h2{
+      font-weight: 700;
+      font-style: italic;
+      font-size: 40;
+    }
+  }
+}
+
+#contactus{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#successmessage{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #c1c1c1;
+}
